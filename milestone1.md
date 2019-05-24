@@ -1,15 +1,21 @@
-```flow 
-st=>start: 开始 
-e=>end: 登录 
-io1=>inputoutput: 输入用户名密码 
-sub1=>subroutine: 数据库查询子类 
-cond=>condition: 是否有此用户 
-cond2=>condition: 密码是否正确 
-op=>operation: 读入用户信息
+## Program Flowchart
+```flow
+st=>start: Start
+e=>end: End
+para1=>parallel: Add Modules
+para2=>parallel: Add Requirements
+sub=>subroutine: Choose allocated lecture slots
+sub1=>subroutine: Choose fixed tutorial slots
+sub2=>subroutine: Set reserved time slots
+sub3=>subroutine: Set maximum daily workload
+op=>operation: Auto-arrange
+display=>inputoutput: Display Timetable
+e=>end
 
-st->io1->sub1->cond 
-cond(yes,right)->cond2 
-cond(no)->io1(right) 
-cond2(yes,right)->op->e 
-cond2(no)->io1 
+st(right)->para1
+para1(path1, bottom)->sub
+para1(path2, right)->para2
+para2(path1, bottom)->sub1
+sub1->sub2->sub3
+para2(path2, right)->op->display->e
 ```
