@@ -39,11 +39,13 @@ S/N | Task | Date | Orbitee1(hrs) | Orbitee2(hrs) | Remarks
 :---:|:---:|:---:|:---:|:---:|---
 1|Liftoff Day 1 |3/05/2019 |8 |8|Liftoff Day 1
 2|Liftoff Day 2|14/05/2019|8|8|Liftoff Day 2
-|3|1st Team Meeting |18/05/2019|10|10| 1.further discussed and polish the initial idea <br>2. discussed the technology needed in the project <br>3. delegated roles of each orbitee |
+|3|1st Team Meeting |18/05/2019|10|10|1.further discussed and polish the initial idea <br>2. discussed the technology needed in the project <br>3. delegated roles of each orbitee |
 4|2nd Team Meeting|19/05/2019|10|10|1. layout the general sturcture and operantional mode of the program <br>2. dicussed the ways of implementation of each of the main features in details
-5|Programming at home|23/05/2019|2|2|
-6|Programming at home|24/05/2019|2|2|
-7|Programming at home|25/05/2019|2|2|
-8|3rd Team Meeting|30/05/2019|10|10
-
-
+5|Programming at home|23/05/2019|2|2|Develop database models
+6|Programming at home|24/05/2019|2|2|Develop database models
+7|Programming at home|25/05/2019|2|2|Develop database models
+8|3rd Team Meeting|30/05/2019|10|10|1.Worked on milestones <br>2.further planning of the project
+##
+Total Hours | Orbitee 1 | Orbitee 2
+:---:|:---:|---
+104|52|52
