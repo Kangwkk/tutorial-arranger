@@ -7,10 +7,12 @@ We hope to make the timetable planning process less time-consuming and automated
 ## Target User
 NUS students
 ## User Stories
-+ **Alice:** As a student who has at least 6 tutorials to balltot, and each tutorial has so many slots to choose from, I want to eliminate the options that obviously conflict with my existing schedule. (e.g. allocated lectures)
-- **Bob:** I only want to have my lunch between 12 to 1pm, otherwise I will have stomachache. I don't want any tutorials in this time slot and I hope I don't have to do the elimination process manually. 
-* **Cathy:** The school bus is always crowded. Missing the bus means being late for classes. I want the travel distance between two adjacent classes be minimized. (e.g walking from COM1 to COM2 is preferred rather than taking the bus from School of Computing to Faculty of Science)
-- **Dillip:** I want the workload to be distributed evenly each day so that I don't have to burn the night oil on days when the classes piled up. 
+- As a student who has so many tutorial classes to choose from, I want the the process of arranging timetable to be automated once I provide the modules I'm taking and my requirements. 
+    - As a student who has some reserved time slots (e.g lunchtime from 12:00 to 13:00 or existing lectures), I want the timetable arranger to avoid clashes automatically. 
+    + As a student who always misses the school bus, I want the travel distance between two adjacent classes be minimized. (e.g walking from COM1 to COM2 is preferred rather than taking the bus from School of Computing to Faculty of Science)
+    * As a student who cannot withstand a daily workload of 12 hours, I want the tutorial arranger to avoid coming up with a timetable that has too much workload on a single day. 
+* As a student who wants to have access to the arranged timetable even without internet connection, I want to be able to save the timetable to my cellphone or laptop.
++ As a student who might not be satisfied with the auto-arranged timetable, I want to be able to change the tutorial slots in my timetable. 
 ## Scope of Project
 A web-based application. 
 ## Program Flowchart
